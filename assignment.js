@@ -1,4 +1,4 @@
-//
+// https://github.com/nurulrahat/assignment3
 
 //1.kilometere to meter
 
@@ -58,7 +58,7 @@ function hotelCost(day)
  
  //4.find mega friend
 
- function maxFriendName(array){
+ function megaFriend(array){
     var max = array[0];
      for (let i = 0; i < array.length; i++) {
         const nextName = array[i];
@@ -70,5 +70,5 @@ function hotelCost(day)
                         }
 
         var friendName=['Golu', 'Molu', 'Tariqul', 'Mokbul','Mosharrof'];
-        var longestName = maxFriendName(friendName);
+        var longestName = megaFriend(friendName);
         console.log(longestName);
